@@ -10,7 +10,6 @@ id button3
 id button4
 id frameLayout
 id imageView
-id imageView2
 id imageView3
 id itemdesc
 id itemimage
