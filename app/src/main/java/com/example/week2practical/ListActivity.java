@@ -1,21 +1,16 @@
 package com.example.week2practical;
 
-import androidx.appcompat.app.AlertDialog;
+import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import java.util.ArrayList;
 import java.util.Random;
+import com.example.week2practical.User;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -26,12 +21,9 @@ public class ListActivity extends AppCompatActivity {
 
         Random random = new Random();
         ArrayList<User> Users20 = new ArrayList<>();
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < 20; i++){
             Users20.add(new User("Name" + random.nextInt(), "Description" + random.nextInt(), random.nextInt(), random.nextBoolean()));
         }
-
-        TextView txt = findViewById(R.id.textView4);
-        txt.setText(Users20.get(2).getName());
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(ListActivity.this));

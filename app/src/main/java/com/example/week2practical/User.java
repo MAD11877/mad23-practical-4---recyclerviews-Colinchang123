@@ -7,10 +7,10 @@ public class User {
     boolean followed;
 
     public User(String Name, String Description, int Id, boolean Followed){
-        Name = name;
-        Description = description;
-        Id = id;
-        Followed = followed;
+        name = Name;
+        description = Description;
+        id = Id;
+        followed = Followed;
     }
 
     public String getName(){
