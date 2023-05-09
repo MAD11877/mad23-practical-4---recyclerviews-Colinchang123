@@ -55,11 +55,11 @@ public class Adapter extends RecyclerView.Adapter<VH> {
 
                                 Intent startMain = new Intent(view.getContext(), MainActivity.class);
                                 startMain.putExtra("User", users.get(holder.getAdapterPosition()));
-                                ActivityResultLauncher<Intent> launcher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
-                                    if (result.getResultCode() == Activity.RESULT_OK){
-                                        Intent data = result.getData();
-                                    }
-                                });
+                                //ActivityResultLauncher<Intent> launcher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+                                //    if (result.getResultCode() == Activity.RESULT_OK){
+                                //        Intent data = result.getData();
+                                //    }
+                                //});
 
 
                             }
