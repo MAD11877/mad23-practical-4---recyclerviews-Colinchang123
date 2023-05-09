@@ -1,6 +1,8 @@
 package com.example.week2practical;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     String name;
     String description;
     int id;

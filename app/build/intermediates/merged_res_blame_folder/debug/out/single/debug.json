@@ -24,6 +24,10 @@
         "source": "com.example.week2practical.app-main-30:/layout/fragment_group1.xml"
     },
     {
+        "merged": "com.example.week2practical.app-merged_res-28:/drawable-v24_icon.jpg.flat",
+        "source": "com.example.week2practical.app-main-30:/drawable-v24/icon.jpg"
+    },
+    {
         "merged": "com.example.week2practical.app-merged_res-28:/layout_activity_main.xml.flat",
         "source": "com.example.week2practical.app-main-30:/layout/activity_main.xml"
     },

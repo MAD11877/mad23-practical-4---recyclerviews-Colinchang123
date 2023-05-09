@@ -1,6 +1,11 @@
 package com.example.week2practical;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,12 +33,11 @@ public class ListActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(ListActivity.this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(new Adapter(getApplicationContext(), Users20));
+        recyclerView.setAdapter(new Adapter(this, Users20));
 
-        /*ImageView imgButton = findViewById(R.id.imageView2);
-        imgButton.setOnClickListener(new View.OnClickListener(){
+        /*        imageView.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-                new AlertDialog.Builder(ListActivity.this)
+                new AlertDialog.Builder(view.getContext())
                         .setTitle("Profile")
                         .setMessage("MADness")
                         .setPositiveButton("VIEW", new DialogInterface.OnClickListener(){
@@ -41,7 +45,7 @@ public class ListActivity extends AppCompatActivity {
                                 Random random = new Random();
                                 int randInt = random.nextInt();
 
-                                Intent startMain = new Intent(ListActivity.this, MainActivity.class);
+                                Intent startMain = new Intent(view.getContext(), MainActivity.class);
                                 startMain.putExtra("randIntKey", randInt);
                                 startActivity(startMain);
                             }
@@ -53,6 +57,6 @@ public class ListActivity extends AppCompatActivity {
                         })
                         .show();
             }
-        }); */
+        });*/
     }
 }

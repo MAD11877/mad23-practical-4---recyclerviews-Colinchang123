@@ -77,7 +77,7 @@
             android:layout_marginTop="285dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="26dp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            android:text="Description"
             android:textAlignment="center"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"

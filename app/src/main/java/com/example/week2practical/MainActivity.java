@@ -19,27 +19,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        User User1 = new User("John", "Person", 12, false);
-        String Name = User1.getName();
-        String Description = User1.getDescription();
 
-
-
-        int randInt = getIntent().getIntExtra("randIntKey", 0);
+        User User1 = (User) getIntent().getSerializableExtra("User");
         TextView intText = findViewById(R.id.textView);
-        intText.setText("MAD " + randInt);
+        intText.setText(User1.getName());
+        TextView descText = findViewById(R.id.textView3);
+        descText.setText(User1.getDescription());
+        //String Name = User1.getName();
+        //String Description = User1.getDescription();
+
 
         Button followButton = findViewById(R.id.button);
+
+        if(User1.followed == true){
+            User1.followed = false;
+            followButton.setText("Follow");
+        }
+        else if(User1.followed == false){
+            User1.followed = true;
+            followButton.setText("Unfollow");
+        }
         followButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 if(User1.followed == true){
-                    User1.followed = false;
+                    User1.setFollowed(false);
                     followButton.setText("Follow");
                     Toast.makeText(getApplicationContext(), "Unfollowed", Toast.LENGTH_SHORT).show();
                 }
                 else if(User1.followed == false){
-                    User1.followed = true;
+                    User1.setFollowed(true);
                     followButton.setText("Unfollow");
                     Toast.makeText(getApplicationContext(), "Followed", Toast.LENGTH_SHORT).show();
                 }
