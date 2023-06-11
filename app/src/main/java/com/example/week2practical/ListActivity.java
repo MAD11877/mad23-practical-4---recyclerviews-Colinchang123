@@ -25,15 +25,14 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         Random random = new Random();
-        ArrayList<User> Users20 = new ArrayList<>();
         for(int i = 0; i < 20; i++){
-            Users20.add(new User("Name" + random.nextInt(), "Description" + random.nextInt(), random.nextInt(), random.nextBoolean()));
+            UserList.List.add(new User("Name" + random.nextInt(), "Description" + random.nextInt(), random.nextInt(), random.nextBoolean()));
         }
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(ListActivity.this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(new Adapter(this, Users20));
+        recyclerView.setAdapter(new Adapter(this, UserList.List));
 
         /*        imageView.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){

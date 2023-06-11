@@ -20,37 +20,48 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        User User1 = (User) getIntent().getSerializableExtra("User");
+        //User User1 = (User) getIntent().getSerializableExtra("User");
+        Intent receiving = getIntent();
+        String Name = receiving.getStringExtra("Name");
+        String Desc = receiving.getStringExtra("desc");
+
+        int id = 0;
+
+        for (int i = 0; i < UserList.List.size(); i ++) {
+            if (UserList.List.get(i).name.equals(Name)) {
+                id = i;
+            }
+        }
+        User user = UserList.List.get(id);
+
         TextView intText = findViewById(R.id.textView);
-        intText.setText(User1.getName());
+        intText.setText(Name);
         TextView descText = findViewById(R.id.textView3);
-        descText.setText(User1.getDescription());
-        //String Name = User1.getName();
-        //String Description = User1.getDescription();
+        descText.setText(Desc);
 
 
         Button followButton = findViewById(R.id.button);
 
-        if(User1.followed == true){
-            User1.followed = false;
-            followButton.setText("Follow");
-        }
-        else if(User1.followed == false){
-            User1.followed = true;
+        if(user.followed == true){
+            //user.followed = false;
             followButton.setText("Unfollow");
+        }
+        else if(user.followed == false){
+            //user.followed = true;
+            followButton.setText("Follow");
         }
         followButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                if(User1.followed == true){
+                if(user.followed == true){
                     //User1.setFollowed(false);
-                    User1.followed = false;
+                    user.followed = false;
                     followButton.setText("Follow");
                     Toast.makeText(getApplicationContext(), "Unfollowed", Toast.LENGTH_SHORT).show();
                 }
-                else if(User1.followed == false){
+                else if(user.followed == false){
                     //User1.setFollowed(true);
-                    User1.followed = true;
+                    user.followed = true;
                     followButton.setText("Unfollow");
                     Toast.makeText(getApplicationContext(), "Followed", Toast.LENGTH_SHORT).show();
                 }

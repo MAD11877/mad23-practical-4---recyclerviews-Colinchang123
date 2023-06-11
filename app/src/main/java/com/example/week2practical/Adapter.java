@@ -54,7 +54,8 @@ public class Adapter extends RecyclerView.Adapter<VH> {
                             public void onClick(DialogInterface dialog, int id){
 
                                 Intent startMain = new Intent(view.getContext(), MainActivity.class);
-                                startMain.putExtra("User", users.get(holder.getAdapterPosition()));
+                                startMain.putExtra("Name", users.get(holder.getAdapterPosition()).getName());
+                                startMain.putExtra("Desc", users.get(holder.getAdapterPosition()).getDescription());
                                 view.getContext().startActivity(startMain);
 
 
