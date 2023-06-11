@@ -1517,42 +1517,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\colin\\OneDrive - Ngee Ann Polytechnic\\Mobile Applications Development\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "57,100",
-                        "endColumns": "41,41",
-                        "endOffsets": "94,137"
-                    },
-                    "to": {
-                        "startLines": "586,817",
-                        "startColumns": "4,4",
-                        "startOffsets": "29680,46194",
-                        "endColumns": "41,41",
-                        "endOffsets": "29717,46231"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\colin\\OneDrive - Ngee Ann Polytechnic\\Mobile Applications Development\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "102,336",
-                        "endLines": "5,7",
-                        "endColumns": "12,76",
-                        "endOffsets": "328,408"
-                    },
-                    "to": {
-                        "startLines": "2130,5674",
-                        "startColumns": "4,4",
-                        "startOffsets": "140540,383518",
-                        "endLines": "2133,5674",
-                        "endColumns": "12,75",
-                        "endOffsets": "140657,383589"
-                    }
-                },
-                {
                     "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\f1cbfa66c793c84195ed08fdc711e3af\\transformed\\lifecycle-runtime-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -1605,23 +1569,6 @@
                         "endLines": "7975,7981,7991,11237,11241",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "528701,528879,529163,646941,647068"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\colin\\OneDrive - Ngee Ann Polytechnic\\Mobile Applications Development\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,128",
-                        "endColumns": "53,69",
-                        "endOffsets": "65,193"
-                    },
-                    "to": {
-                        "startLines": "1589,1602",
-                        "startColumns": "4,4",
-                        "startOffsets": "96679,98145",
-                        "endColumns": "53,69",
-                        "endOffsets": "96728,98210"
                     }
                 },
                 {
@@ -1754,6 +1701,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\colin\\Documents\\School\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,336",
+                        "endLines": "5,7",
+                        "endColumns": "12,76",
+                        "endOffsets": "328,408"
+                    },
+                    "to": {
+                        "startLines": "2130,5674",
+                        "startColumns": "4,4",
+                        "startOffsets": "140540,383518",
+                        "endLines": "2133,5674",
+                        "endColumns": "12,75",
+                        "endOffsets": "140657,383589"
+                    }
+                },
+                {
                     "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\f550c9bc53f117cb9e3852beae837a10\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -1768,6 +1734,23 @@
                         "startOffsets": "88042,88082,89164,89346,89401,90897,90951,91003,91052,91113",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "88077,88124,89202,89396,89443,90946,90998,91047,91108,91158"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\colin\\Documents\\School\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,100",
+                        "endColumns": "41,41",
+                        "endOffsets": "94,137"
+                    },
+                    "to": {
+                        "startLines": "586,817",
+                        "startColumns": "4,4",
+                        "startOffsets": "29680,46194",
+                        "endColumns": "41,41",
+                        "endOffsets": "29717,46231"
                     }
                 },
                 {
@@ -1806,6 +1789,23 @@
                         "endLines": "448,964,965,966,974,975,976,1446,11030",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "22023,55939,55987,56043,56729,56805,56877,88224,640623"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\colin\\Documents\\School\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,128",
+                        "endColumns": "53,69",
+                        "endOffsets": "65,193"
+                    },
+                    "to": {
+                        "startLines": "1589,1602",
+                        "startColumns": "4,4",
+                        "startOffsets": "96679,98145",
+                        "endColumns": "53,69",
+                        "endOffsets": "96728,98210"
                     }
                 },
                 {
@@ -3684,7 +3684,24 @@
             "outputFile": "com.example.week2practical.app-merged_res-28:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\colin\\OneDrive - Ngee Ann Polytechnic\\Mobile Applications Development\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\b79e00459b51debe71c70b38b92dedee\\transformed\\material-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,241,330,431,538,645,744,847,935,1059,1161,1263,1379,1481,1595,1723,1839,1961,2097,2217,2351,2471,2583,2709,2826,2950,3080,3202,3340,3474,3590",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "125,236,325,426,533,640,739,842,930,1054,1156,1258,1374,1476,1590,1718,1834,1956,2092,2212,2346,2466,2578,2704,2821,2945,3075,3197,3335,3469,3585,3705"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "809,884,995,1084,1185,1292,1399,1498,1601,1689,1813,1915,2017,2133,2235,2349,2477,2593,2715,2851,2971,3105,3225,3337,3552,3669,3793,3923,4045,4183,4317,4433",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "879,990,1079,1180,1287,1394,1493,1596,1684,1808,1910,2012,2128,2230,2344,2472,2588,2710,2846,2966,3100,3220,3332,3458,3664,3788,3918,4040,4178,4312,4428,4548"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\colin\\Documents\\School\\mad23-practical-4---recyclerviews-Colinchang123\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3700,23 +3717,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "172"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\b79e00459b51debe71c70b38b92dedee\\transformed\\material-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,130,241,330,431,538,645,744,847,935,1059,1161,1263,1379,1481,1595,1723,1839,1961,2097,2217,2351,2471,2583,2709,2826,2950,3080,3202,3340,3474,3590",
-                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "125,236,325,426,533,640,739,842,930,1054,1156,1258,1374,1476,1590,1718,1834,1956,2092,2212,2346,2466,2578,2704,2821,2945,3075,3197,3335,3469,3585,3705"
-                    },
-                    "to": {
-                        "startLines": "13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "809,884,995,1084,1185,1292,1399,1498,1601,1689,1813,1915,2017,2133,2235,2349,2477,2593,2715,2851,2971,3105,3225,3337,3552,3669,3793,3923,4045,4183,4317,4433",
-                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "879,990,1079,1180,1287,1394,1493,1596,1684,1808,1910,2012,2128,2230,2344,2472,2588,2710,2846,2966,3100,3220,3332,3458,3664,3788,3918,4040,4178,4312,4428,4548"
                     }
                 },
                 {
